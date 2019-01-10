@@ -1,0 +1,127 @@
+/* style reset */
+
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dd,
+dt,
+span,
+img,
+label,
+input,
+button,
+select,
+textarea,
+span,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+ol,
+dl,
+ul {
+  list-style: none;
+}
+
+input,
+button,
+select {
+  outline-style: none;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+input:disabled,
+input[disabled] {
+  background-color: #f5f7fa!important;
+  color: black!important;
+}
+
+/* style reset */
+
+
+/* 方法 */
+
+.clearfix {
+  zoom: 1;
+  &:after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+.m0{
+  margin: 0 !important;
+}
+.unSelect {
+  // 禁止文字选中
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ptb10 {
+  padding: 10px 0;
+}
+
+.noborder {
+  border: none!important;
+}

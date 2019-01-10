@@ -1,5 +1,3 @@
-# dianbiao
-
 ## Project setup
 ```
 npm install
